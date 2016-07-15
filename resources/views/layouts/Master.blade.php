@@ -57,7 +57,7 @@
 
         body {
             background-color: #f1f3fa;
-            overflow:hidden;
+
         }
 
         #logo {
@@ -184,8 +184,9 @@
 
     <div class="page-head"></div>
     <div class="page-content">
-
+        @yield('content')
     </div>
+
 
     <!--<!--<div class="page-wrapper-row">
         <div class="page-wrapper-bottom">

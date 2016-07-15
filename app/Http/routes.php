@@ -18,6 +18,8 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::resource('/paitent','paitent');
+Route::resource('/staff','staff');
 Route::get('/test',function (){
     return view('layouts/Master');
 });
